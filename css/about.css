@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins';
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin-top: 8rem;
+}
+nav {
+    background-color: #ff9658;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px;
+    margin: 0 24px;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #453f3f;
+}
+.about {
+    color:#333;
+    margin-top: 70px;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+p {
+    width: 80%;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    margin-left: 8rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.logos {
+    width: 30px;
+    margin-right: 1000px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.featured-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.team {
+    width: 40%;
+    height: 21rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333;
+    text-align: center;
+}
+.team-desc {
+    width: 80%;
+    margin: 0;
+    justify-content: center;
+    margin-left: 5rem; 
+
+}
+.mission {
+    color: #333;
+    margin-bottom: 6rem;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p {
+    margin-bottom: 10px;
+}
+.social-icons {
+    margin-top: 10px;
+}
+img {
+    width: 140px;
+    border-radius: 50%;
+}
+.link {
+    width: 30px;
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
