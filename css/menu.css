@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins';
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    background-color: #ff9658;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 6px;
+    margin: 0 24px;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #ffffff;
+}
+h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 5%
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.logos {
+    width: 30px;
+    margin-right: 1000px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.featured-products {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.product {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product img {
+    width: 300px;
+    margin-bottom: 10px;
+    color: #ddd;
+}
+.product strong {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+.product em {
+    font-size: 14px;
+    color: gold;
+
+}
+.product p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #ddd;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p {
+    margin-bottom: 10px;
+}
+.social-icons {
+    margin-top: 10px;
+}
+img {
+    width: 140px;
+}
+.link {
+    width: 30px;
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
